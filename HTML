@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Investigasi Kebutuhan Sistem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Investigasi Kebutuhan Sistem</h1>
+        <p>Memahami Kebutuhan dan Rekayasa Sistem Informasi</p>
+        <nav>
+            <ul>
+                <li><a href="#slide1">Slide 1</a></li>
+                <li><a href="#slide5">Wawancara</a></li>
+                <li><a href="#slide13">Studi Kelayakan</a></li>
+                <li><a href="#rekayasa">Rekayasa Kebutuhan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="slide1">
+            <button class="collapsible">Slide 1: Investigasi Kebutuhan Sistem</button>
+            <div class="content">
+                <p><strong>Bahan Kajian:</strong> Investigasi Kebutuhan Sistem</p>
+                <p><strong>Sub-CPMK:</strong> Mahasiswa dapat mampu melakukan investigasi kebutuhan sistem</p>
+                <p>Referensi: Satzinger J.W., Jackson R.B., Burd S.D., Valacich J.S, George J.F.</p>
+            </div>
+        </section>
+
+        <section id="slide5">
+            <button class="collapsible">Slide 5: Wawancara</button>
+            <div class="content">
+                <p><strong>Wawancara:</strong> Tujuan wawancara adalah untuk...</p>
+                <ul>
+                    <li>Menjajagi sifat dan pendapat dari responden</li>
+                    <li>Memeriksa dan melakukan cross-check</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="slide13">
+            <button class="collapsible">Slide 13: Studi Kelayakan Sistem</button>
+            <div class="content">
+                <p><strong>Kelayakan Teknik:</strong> Ketersediaan teknologi di pasaran dan ahli yang mengoperasikannya.</p>
+                <p><strong>Kelayakan Ekonomi:</strong> Biaya yang diperlukan vs. manfaat.</p>
+                <p><strong>Kelayakan Operasional:</strong> Kesulitan menjalankan sistem baru.</p>
+            </div>
+        </section>
+
+        <section id="rekayasa">
+            <button class="collapsible">Rekayasa Kebutuhan</button>
+            <div class="content">
+                <p><strong>Rekayasa Kebutuhan:</strong> Deskripsi tentang apa yang harus dilakukan oleh sistem.</p>
+                <p><strong>Kegiatan dalam Rekayasa Kebutuhan:</strong></p>
+                <ul>
+                    <li>Pengenalan Permasalahan</li>
+                    <li>Spesifikasi</li>
+                    <li>Validasi</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Investigasi Kebutuhan Sistem</p>
+    </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
