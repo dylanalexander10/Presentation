@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Analisis dan Perancangan Sistem Informasi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .section {
+      border: 1px solid #ccc;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+
+    .section-header {
+      font-weight: bold;
+      cursor: pointer;
+      color: #333;
+      background-color: #ddd;
+      padding: 10px;
+    }
+
+    .section-content {
+      display: none;
+      margin-top: 10px;
+    }
+  </style>
+  <script>
+    function toggleSection(id) {
+      var content = document.getElementById(id);
+      content.style.display = content.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>Analisis dan Perancangan Sistem Informasi</h1>
+  
+  <!-- Section 1: Investigasi Kebutuhan Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section1')">Investigasi Kebutuhan Sistem</div>
+    <div class="section-content" id="section1">
+      <p>Bahan Kajian: Investigasi Kebutuhan Sistem</p>
+      <ul>
+        <li>Mahasiswa dapat mampu melakukan investigasi kebutuhan sistem.</li>
+        <li>Referensi: Satzinger, Valacich, George.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 2: Alat dan Teknik Analisis Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section2')">Alat dan Teknik Analisis Sistem</div>
+    <div class="section-content" id="section2">
+      <p>Pada tahap analisis ini, beberapa teknik pengumpulan data meliputi:</p>
+      <ul>
+        <li>Observasi langsung</li>
+        <li>Wawancara</li>
+        <li>Kuesioner</li>
+        <li>Sampling dokumen</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Section 3: Studi Kelayakan Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section3')">Studi Kelayakan Sistem</div>
+    <div class="section-content" id="section3">
+      <p>Kaji kelayakan sistem dari segi:</p>
+      <ul>
+        <li>Kelayakan teknis</li>
+        <li>Kelayakan ekonomi</li>
+        <li>Kelayakan operasional</li>
+        <li>Kelayakan hukum</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 4: Laporan Analisis Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section4')">Laporan Analisis Sistem</div>
+    <div class="section-content" id="section4">
+      <ul>
+        <li>Pendahuluan</li>
+        <li>Latar belakang masalah</li>
+        <li>Tujuan pengembangan sistem</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Add more sections as needed, following the pattern above -->
+
+</body>
+</html>
