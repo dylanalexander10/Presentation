@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Analisis dan Perancangan Sistem Informasi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+      margin: 0;
+      padding: 20px;
+    }
+    .section {
+      border: 1px solid #333;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #1e1e1e;
+    }
+    .section-header {
+      font-weight: bold;
+      cursor: pointer;
+      color: #f1f1f1;
+      background-color: #333;
+      padding: 10px;
+    }
+    .section-content {
+      display: none;
+      margin-top: 10px;
+      color: #ddd;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function toggleSection(id) {
+      var content = document.getElementById(id);
+      content.style.display = content.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>Analisis dan Perancangan Sistem Informasi</h1>
+
+  <!-- Section 1: Investigasi Kebutuhan Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section1')">Investigasi Kebutuhan Sistem</div>
+    <div class="section-content" id="section1">
+      <p>Investigasi ini adalah proses untuk mengidentifikasi kebutuhan sistem, melibatkan pengumpulan informasi dari pengguna, dan analisis sistem yang berjalan.</p>
+    </div>
+  </div>
+
+  <!-- Section 2: Tahapan Analisis -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section2')">Tahapan Analisis</div>
+    <div class="section-content" id="section2">
+      <p>Analisis sistem melibatkan beberapa tahapan seperti pendefinisian masalah, penyatuan konsep, dan studi kelayakan untuk mengetahui apakah sistem baru dibutuhkan.</p>
+    </div>
+  </div>
+
+  <!-- Section 3: Alat dan Teknik Analisis Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section3')">Alat dan Teknik Analisis Sistem</div>
+    <div class="section-content" id="section3">
+      <ul>
+        <li><strong>Observasi langsung:</strong> Pengamatan terhadap sistem atau proses, dengan atau tanpa interaksi dengan pihak yang diamati.</li>
+        <li><strong>Wawancara:</strong> Tanya jawab dengan responden untuk mendapatkan informasi lebih dalam tentang kebutuhan sistem.</li>
+        <li><strong>Kuesioner:</strong> Mengumpulkan data dari banyak responden dengan pertanyaan yang dirancang khusus.</li>
+        <li><strong>Sampling dokumen:</strong> Mengidentifikasi dokumen untuk memahami proses yang sedang berjalan.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 4: Studi Kelayakan Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section4')">Studi Kelayakan Sistem</div>
+    <div class="section-content" id="section4">
+      <p>Studi kelayakan mencakup evaluasi dari beberapa aspek: teknis, ekonomi, operasional, waktu, dan hukum untuk memastikan sistem baru layak dijalankan.</p>
+    </div>
+  </div>
+
+  <!-- Section 5: Laporan Analisis Sistem -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section5')">Laporan Analisis Sistem</div>
+    <div class="section-content" id="section5">
+      <ul>
+        <li><strong>Pendahuluan:</strong> Pengenalan terhadap tujuan analisis.</li>
+        <li><strong>Latar belakang masalah:</strong> Penjelasan mengapa analisis diperlukan.</li>
+        <li><strong>Tujuan pengembangan sistem:</strong> Menentukan hasil yang diinginkan dari pengembangan sistem baru.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 6: Identifikasi Masalah dan Investigasi -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section6')">Identifikasi Masalah dan Investigasi</div>
+    <div class="section-content" id="section6">
+      <ul>
+        <li><strong>Memahami sistem lama:</strong> Menelaah cara kerja sistem yang sudah ada.</li>
+        <li><strong>Evaluasi sistem:</strong> Mengevaluasi kelemahan dari sistem yang ada.</li>
+        <li><strong>Memahami keinginan pemakai:</strong> Memahami kebutuhan pengguna dari sistem baru.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 7: Rekayasa Kebutuhan -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section7')">Rekayasa Kebutuhan</div>
+    <div class="section-content" id="section7">
+      <p>Rekayasa Kebutuhan adalah proses mendokumentasikan layanan dan kendala yang diperlukan oleh pengguna dan memastikan mereka terpenuhi oleh sistem yang dibangun.</p>
+    </div>
+  </div>
+
+  <!-- Section 8: Kebutuhan Fungsional dan Non-Fungsional -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section8')">Kebutuhan Fungsional dan Non-Fungsional</div>
+    <div class="section-content" id="section8">
+      <p>Kebutuhan fungsional mencakup layanan yang harus disediakan sistem, sementara kebutuhan non-fungsional mencakup batasan seperti kinerja, keandalan, dan keamanan.</p>
+    </div>
+  </div>
+
+  <!-- Section 9: Contoh Sistem Informasi Perpustakaan -->
+  <div class="section">
+    <div class="section-header" onclick="toggleSection('section9')">Contoh Sistem Informasi Perpustakaan</div>
+    <div class="section-content" id="section9">
+      <p>Sistem perpustakaan digital memungkinkan pencatatan peminjaman buku, keamanan data, dan akses cepat oleh pengguna.</p>
+    </div>
+  </div>
+</body>
+</html>
